@@ -146,7 +146,7 @@ class Categoryscreen extends StatelessWidget {
                           fontsize: 14
                         ),
                         Uihelper.CustomText(
-                          text: "- Sujal Dave, Ratanada, Jodhpur (Raj)",
+                          text: "- Nakano Nino",
                           color: Color(0XFF000000),
                           fontweight: FontWeight.bold,
                           fontsize: 14
