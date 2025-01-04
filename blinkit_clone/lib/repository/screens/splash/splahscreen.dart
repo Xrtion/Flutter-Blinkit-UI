@@ -1,7 +1,7 @@
 import 'dart:async';
 import 'package:blinkit_clone/domain/constants/appcolors.dart';
 import 'package:blinkit_clone/repository/screens/logins/loginscreen.dart';
-import 'package:blinkit_clone/repository/widgets/uihelper.dart';
+import 'package:blinkit_clone/repository/widgets/Uihelper.dart';
 import 'package:flutter/material.dart';
 
 class Splahscreen extends StatefulWidget {

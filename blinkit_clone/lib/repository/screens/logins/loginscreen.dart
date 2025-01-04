@@ -1,5 +1,5 @@
 import 'package:blinkit_clone/repository/screens/bottomnav/bottomnavscreen.dart';
-import 'package:blinkit_clone/repository/widgets/uihelper.dart';
+import 'package:blinkit_clone/repository/widgets/Uihelper.dart';
 import 'package:flutter/material.dart';
 
 class Loginscreen extends StatelessWidget {

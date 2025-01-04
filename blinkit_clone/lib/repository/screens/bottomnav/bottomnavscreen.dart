@@ -2,7 +2,7 @@ import 'package:blinkit_clone/repository/screens/Home/Homescreen.dart';
 import 'package:blinkit_clone/repository/screens/cart/cartscreen.dart';
 import 'package:blinkit_clone/repository/screens/category/categoryscreen.dart';
 import 'package:blinkit_clone/repository/screens/print/printscreen.dart';
-import 'package:blinkit_clone/repository/widgets/uihelper.dart';
+import 'package:blinkit_clone/repository/widgets/Uihelper.dart';
 import 'package:flutter/material.dart';
 
 class Bottomnavscreen extends StatefulWidget {
