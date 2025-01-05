@@ -37,4 +37,28 @@ class Uihelper {
       ),
     );
   }
+
+
+  static CustomButton(VoidCallback callback) {
+    return Container(
+      height: 18,
+      width: 30,
+      decoration: BoxDecoration(
+        color: Colors.white,
+        border: Border.all(
+          color: Color(0XFF27AF34)
+        ),
+        borderRadius: BorderRadius.circular(4)
+      ),
+      child: Center(
+        child: Text(
+          "ADD",
+          style: TextStyle(
+            color: Color(0XFF27AF34),
+            fontSize:8,
+          ),
+        ),
+      ),
+    );
+  }
 }
