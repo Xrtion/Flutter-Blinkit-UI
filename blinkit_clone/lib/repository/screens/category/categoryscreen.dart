@@ -4,87 +4,32 @@ import 'package:flutter/material.dart';
 class Categoryscreen extends StatelessWidget {
   TextEditingController searchcontroller = TextEditingController();
   var grocerykitchen = [
-    {
-      "img": "image 41.png",
-      "text": "Vegetables & \nFruits"
-    },
-    {
-      "img": "image 42.png",
-      "text": "Atta, Dal & \nRice"
-    },
-    {
-      "img": "image 43.png",
-      "text": "Oil, Ghee & \nMasala"
-    },
-    {
-      "img": "image 44.png",
-      "text": "Dairy, Bread & \nMilk"
-    },
-    {
-      "img": "image 45.png",
-      "text": "Biscuit & \nBekery"
-    },
+    {"img": "image 41.png", "text": "Vegetables & \nFruits"},
+    {"img": "image 42.png", "text": "Atta, Dal & \nRice"},
+    {"img": "image 43.png", "text": "Oil, Ghee & \nMasala"},
+    {"img": "image 44.png", "text": "Dairy, Bread & \nMilk"},
+    {"img": "image 45.png", "text": "Biscuit & \nBekery"},
   ];
   var secoundgrocerykitchen = [
-    {
-      "img": "image 21.png",
-      "text": "Dry Fruits & \nCereals"
-    },
-    {
-      "img": "image 22.png",
-      "text": "Kitchen & \nAppliances"
-    },
-    {
-      "img": "image 23.png",
-      "text": "Tea & \nCoffe"
-    },
-    {
-      "img": "image 24.png",
-      "text": "Ice Creams & \nMuch more"
-    },
-    {
-      "img": "image 25.png",
-      "text": "Noodles & \nPacket Food"
-    },
+    {"img": "image 21.png", "text": "Dry Fruits & \nCereals"},
+    {"img": "image 22.png", "text": "Kitchen & \nAppliances"},
+    {"img": "image 23.png", "text": "Tea & \nCoffe"},
+    {"img": "image 24.png", "text": "Ice Creams & \nMuch more"},
+    {"img": "image 25.png", "text": "Noodles & \nPacket Food"},
   ];
   var snacksanddrinks = [
-    {
-      "img": "image 31.png",
-      "text": "Chips & \nNamkeens"
-    },
-    {
-      "img": "image 32.png",
-      "text": "Sweets & \nChocolates"
-    },
-    {
-      "img": "image 33.png",
-      "text": "Drinks & \nJuice"
-    },
-    {
-      "img": "image 34.png",
-      "text": "Sauce & \nSpreads"
-    },
-    {
-      "img": "image 35.png",
-      "text": "Beuty & \nCosmetics"
-    },
+    {"img": "image 31.png","text": "Chips & \nNamkeens"},
+    {"img": "image 32.png","text": "Sweets & \nChocolates"},
+    {"img": "image 33.png","text": "Drinks & \nJuice"},
+    {"img": "image 34.png","text": "Sauce & \nSpreads"},
+    {"img": "image 35.png","text": "Beuty & \nCosmetics"},
   ];
   var household = [
-    {
-      "img": "image 36.png",
-    },
-    {
-      "img": "image 37.png",
-    },
-    {
-      "img": "image 38.png",
-    },
-    {
-      "img": "image 39.png",
-    },
-    {
-      "img": "image 40.png",
-    },
+    {"img": "image 36.png",},
+    {"img": "image 37.png",},
+    {"img": "image 38.png",},
+    {"img": "image 39.png",},
+    {"img": "image 40.png",},
   ];
 
   @override
