@@ -23,12 +23,12 @@ class _SplahscreenState extends State<Splahscreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Appcolors.scaffoldbackground,
+      backgroundColor: Color(0XFFf8b920),
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Uihelper.CustomImage(img: "image 1.png"),
+            Uihelper.CustomImage(img: "image 1 (2).png"),
           ],
         ),
       ),

@@ -15,11 +15,11 @@ class Loginscreen extends StatelessWidget {
             ),
             SizedBox(height: 30),
             Uihelper.CustomImage(
-              img: "image 10.png"
+              img: "image 10 (2).png"
             ),
             SizedBox(height: 20),
             Uihelper.CustomText(
-              text: "Last Minute App", 
+              text: "Japan Market Shop", 
               color: Color(0XFF000000), 
               fontweight: FontWeight.bold, 
               fontsize: 20, 
@@ -32,7 +32,7 @@ class Loginscreen extends StatelessWidget {
                 borderRadius: BorderRadius.circular(10),
               ),
               child: Container(
-                height: 200,
+                height: 280,
                 width: 350,
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(10),
@@ -42,14 +42,14 @@ class Loginscreen extends StatelessWidget {
                   children: [
                     SizedBox(height: 20),
                     Uihelper.CustomText(
-                      text: "Sujal", 
+                      text: "Nakano Nino", 
                       color: Color(0XFF000000), 
                       fontweight: FontWeight.w500, 
                       fontsize: 14,
                     ),
                     SizedBox(height: 5),
                     Uihelper.CustomText(
-                      text: "78277XXX", 
+                      text: "+8133-343-XXXX", 
                       color: Color(0XFF9C9C9C), 
                       fontweight: FontWeight.bold, 
                       fontsize: 14,
@@ -73,14 +73,46 @@ class Loginscreen extends StatelessWidget {
                           mainAxisAlignment: MainAxisAlignment.center,
                           children: [
                             Uihelper.CustomText(
-                              text: "Login With", 
+                              text: "Login", 
                               color: Color(0XFFFFFFFF), 
                               fontweight: FontWeight.bold, 
                               fontsize: 14,
                               fontfamily: "bold",
                             ),
-                            SizedBox(width: 10),
-                            Uihelper.CustomImage(img: "image 9.png")
+                          ],
+                        )
+                      ),
+                    ),
+                    Uihelper.CustomText(
+                      text: "Or", 
+                      color: Colors.black, 
+                      fontweight: FontWeight.bold, 
+                      fontsize: 15,
+                      fontfamily: "bold"
+                    ),
+                    SizedBox(
+                      height: 40, 
+                      width: 295,
+                      child: ElevatedButton(
+                        onPressed: () {
+                          Navigator.push(context, MaterialPageRoute(builder: (context) => Bottomnavscreen()));
+                        }, 
+                          style: ElevatedButton.styleFrom(
+                          backgroundColor: Color(0XFFE23744),
+                          shape: RoundedRectangleBorder(
+                            borderRadius: BorderRadius.circular(10),
+                          ),
+                        ),
+                        child: Row(
+                          mainAxisAlignment: MainAxisAlignment.center,
+                          children: [
+                            Uihelper.CustomText(
+                              text: "Login With Google", 
+                              color: Color(0XFFFFFFFF), 
+                              fontweight: FontWeight.bold, 
+                              fontsize: 14,
+                              fontfamily: "bold",
+                            ),
                           ],
                         )
                       ),
