@@ -84,11 +84,11 @@ class Homescreen extends StatelessWidget {
                           width: 20,
                         ),
                         Uihelper.CustomText(
-                            text: "16 minutes",
-                            color: Color(0XFF000000),
-                            fontweight: FontWeight.bold,
-                            fontsize: 20,
-                            fontfamily: "bold")
+                          text: "16 minutes",
+                          color: Color(0XFF000000),
+                          fontweight: FontWeight.bold,
+                          fontsize: 20,
+                        )
                       ],
                     ),
                     Row(
@@ -125,9 +125,10 @@ class Homescreen extends StatelessWidget {
                 ),
               ),
               Positioned(
-                  bottom: 30,
-                  left: 20,
-                  child: Uihelper.CustomTextField(controller: searchcontroller))
+                bottom: 30,
+                left: 20,
+                child: Uihelper.CustomTextField(controller: searchcontroller)
+              )
             ],
           ),
           Container(
